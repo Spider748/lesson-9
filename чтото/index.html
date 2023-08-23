@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ОТПРАВКА СМС СООБЩЕНИЯ</h1>
+    <form action="https://api.tehnikum.school/sms/sms.php" method="POST">
+        <label for="">
+            Номер телефона
+            <input type="tel" name="sms_phone">
+        </label>
+        <label for="">
+            Текст СМС
+            <input type="text" name="sms_text">
+        </label>
+        <input type="hidden" name="token" value="Students:1234567">
+        <button type="submit"> Отправить</button>
+    </form>
+        </body>
+        </html>

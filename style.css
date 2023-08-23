@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerBlock{
+    margin: 0 121px;
+}
+
+.number{
+    margin-top: 30 px;
+    margin-bottom: 60px;
+
+}
+
+
+.logo{
+    margin-top: 37 px;
+    margin-bottom: 85px;
+
+}
+
+.courseinfo{
+     display: flex;
+     gap: 161px;
+}
+.title{
+    font-size: 21px;
+    line-height: 140%;
+}
+.subtitle{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 140%
+}
+h1{
+    font-family: "Chava";
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+.text{
+    max-width: 930px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.btnContainer{
+    display:flex ;
+    gap: 30px;
+}
+.btn{
+    width: 328px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500px;
+    border: 1px solid #6E3ABA ;
+    cursor: pointer;
+}
+
+.primary {
+    background: #6E3ABA;
+    color: #fff;
+}
+.secondary{
+    color: #6E3ABA;
+    background-color: #fff;
+}

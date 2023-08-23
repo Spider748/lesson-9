@@ -1,0 +1,15 @@
+header{
+    background-color: #F5EDE7;
+}
+.logo{
+    height: 70px;
+}
+li{
+    list-style: none;
+}
+.section1{
+    background: #FFC3A0;
+}
+.carousel-item{
+    height: 500px;
+}
